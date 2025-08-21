@@ -1,0 +1,21 @@
+ALGORITHM algorithm_name
+VAR
+    a:STRING;
+    nba,voy:INTEGER:=0;
+    i:INTEGER;
+    esp:INTEGER:=1;
+BEGIN
+    repeat
+        read(a);
+    until(ch(length(a))==".");
+    for i from 1 to (length(a)) step 1 do
+        nba:=nba+1;
+        if (ch(i) in[A,O,E,I,U,a,o,e,i,u,y,Y]) then
+            voy:=voy+1;
+        if(ch(i)==" ") then  
+            esp:=esp+1;
+    write ("le nombredes caracteres",nba);
+    write ("le nombredes mots",esp);
+    write ("le nombredes voyelles",voy);
+
+END
