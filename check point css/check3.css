@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Styles généraux */
+body {
+    background-color: #fdf6e3;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header et Navbar */
+header {
+    background-color: #ffebcd;
+    padding: 15px;
+    text-align: center;
+}
+
+
+header h1 {
+    color: #045201;
+}
+
+/* Navbar inline */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* espace entre les liens */
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff8f0;
+}
+
+/* Titres des sections */
+section h2 {
+    color: #155986;
+}
+
+section h3 {
+    color: #c0392b;
+}
+
+section h4 {
+    color: #035215;
+}
+
+section dt {
+    color: #906212;
+    font-weight: bold;
+}
+
+section p,section dd {
+    color: #000000;
+}
+
+/* Résumé spécifique */
+#resume dd {
+    color: #000000;
+}
+
+/* Contact section spécifique */
+#contact dt {
+    color:#906212;
+}
+
+/* Formulaire */
+input,textarea,button {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #002e0b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Images */
+img {
+    border-radius: 8px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Vidéo */
+iframe {
+    display: block;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffebcd;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #0c0202;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e67e22;
+}
+
+/* Star Rating */
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+    color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+
+
+
